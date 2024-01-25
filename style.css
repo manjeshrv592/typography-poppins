@@ -22,17 +22,19 @@ body {
 /************************************************/
 /* TYPOGRAPHY SYSTEM */
 /************************************************/
-body,
-.body {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 180%;
-}
 
 p,
 .para-w {
   width: 100%;
   max-width: 640px;
+}
+
+/* Body text styles */
+body,
+.body {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
 }
 
 .body-xs {
@@ -53,6 +55,40 @@ p,
 .body-xl {
   font-size: 20px;
   line-height: 160%;
+}
+
+/* Header styles */
+
+@media (min-width: 1200px) {
+  .h1 {
+    font-size: 64px;
+    line-height: 110%;
+  }
+
+  .h2 {
+    font-size: 56px;
+    line-height: 120%;
+  }
+
+  .h3 {
+    font-size: 48px;
+    line-height: 130%;
+  }
+
+  .h4 {
+    font-size: 40px;
+    line-height: 130%;
+  }
+
+  .h5 {
+    font-size: 32px;
+    line-height: 130%;
+  }
+
+  .h6 {
+    font-size: 24px;
+    line-height: 140%;
+  }
 }
 
 /************************************************/
