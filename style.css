@@ -9,7 +9,7 @@
 body {
   color: #1a1a1a;
   font-family: 'Poppins', sans-serif;
-  padding-top: 48px;
+  padding: 48px 0;
 }
 
 .container {
@@ -22,15 +22,37 @@ body {
 /************************************************/
 /* TYPOGRAPHY SYSTEM */
 /************************************************/
-body {
+body,
+.body {
   font-weight: 400;
   font-size: 16px;
+  line-height: 180%;
 }
 
-p {
+p,
+.para-w {
   width: 100%;
   max-width: 640px;
-  line-height: 180%;
+}
+
+.body-xs {
+  font-size: 12px;
+  line-height: 200%;
+}
+
+.body-sm {
+  font-size: 14px;
+  line-height: 190%;
+}
+
+.body-lg {
+  font-size: 18px;
+  line-height: 170%;
+}
+
+.body-xl {
+  font-size: 20px;
+  line-height: 160%;
 }
 
 /************************************************/
