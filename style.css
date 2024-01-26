@@ -176,6 +176,141 @@ body,
   }
 }
 
+/* Display styles */
+.display-1 {
+  font-size: 128px;
+  line-height: 115%;
+}
+
+@media (min-width: 768px) {
+  .display-1 {
+    font-size: 144px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .display-1 {
+    font-size: 160px;
+  }
+}
+
+.display-2 {
+  font-size: 112px;
+  line-height: 115%;
+}
+
+@media (min-width: 768px) {
+  .display-2 {
+    font-size: 128px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .display-2 {
+    font-size: 144px;
+  }
+}
+
+.display-3 {
+  font-size: 96px;
+  line-height: 115%;
+}
+
+@media (min-width: 768px) {
+  .display-3 {
+    font-size: 112px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .display-3 {
+    font-size: 128px;
+  }
+}
+
+.display-4 {
+  font-size: 80px;
+  line-height: 115%;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 96px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 112px;
+  }
+}
+
+.display-5 {
+  font-size: 64px;
+  line-height: 115%;
+}
+
+@media (min-width: 768px) {
+  .display-5 {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .display-5 {
+    font-size: 96px;
+  }
+}
+
+.display-6 {
+  font-size: 48px;
+  line-height: 120%;
+}
+
+@media (min-width: 768px) {
+  .display-6 {
+    font-size: 64px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .display-6 {
+    font-size: 80px;
+    line-height: 115%;
+  }
+}
+
+/* Body text */
+.text-xs {
+  font-size: 12px;
+  line-height: 200%;
+}
+
+.text-sm {
+  font-size: 14px;
+  line-height: 190%;
+}
+
+.text-md {
+  font-size: 16px;
+  line-height: 180%;
+}
+
+.text-lg {
+  font-size: 18px;
+  line-height: 170%;
+}
+
+.text-xl {
+  font-size: 20px;
+  line-height: 160%;
+}
+
+.text-xxl {
+  font-size: 24px;
+  line-height: 140%;
+}
+
 /************************************************/
 /* EMPTY BREAKPOINTS OF REFERENCE */
 /************************************************/
